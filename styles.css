@@ -1,0 +1,12 @@
+html{
+                font-family:system-ui;
+            }
+
+            table, th, td{
+                border: 1px double black;
+
+            }
+
+            #mainHeading{
+                background-color: lightcyan;
+            }
