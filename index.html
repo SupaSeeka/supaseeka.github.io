@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,14 +91,12 @@
     <div id="map"></div>
     <div id="info">
       <h2>Cambridge Locations</h2>
-      <p>Cliquez sur un marqueur pour voir les détails.</p>
-      <p style="color: #999; font-size: 0.9em; margin-top: 20px;">💡 Astuce : Cliquez n'importe où sur la carte pour voir les coordonnées dans la console.</p>
     </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // Wait for Leaflet to load
+
     window.addEventListener('load', function() {
       const map = L.map('map', {
         zoomControl: true,
